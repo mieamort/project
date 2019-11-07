@@ -1,0 +1,6 @@
+payroll/client/RequestInterseptor/RequestResponseLoggingInterceptor.class
+payroll/controller/EmployeeController.class
+payroll/config/RestClientConfig.class
+payroll/exception/NoMoneyException.class
+payroll/SbInternApplication.class
+payroll/dao/Employee.class
