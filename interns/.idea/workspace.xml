@@ -2,40 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="829fd45b-105d-47f3-97fb-24b7ed28da68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/payroll/client/OrderClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/payroll/client/RequestInterseptor/RequestResponseLoggingInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/payroll/config/RabbitConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/payroll/config/RestClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/payroll/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/payroll/controller/QueueController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/payroll/dto/OrderDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/payroll/exception/NoMoneyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/payroll/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/payroll/service/EmployeeServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/payroll/controller/EmployeeControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/payroll/service/DepartmentServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/payroll/service/OrderServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../queuelisten1/src/main/java/com/example/queuelisten1/config/RabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../queuelisten1/src/main/java/com/example/queuelisten1/queue/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb-untern3/src/test/java/com/example/sbintern3/serviceTest/OrderServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/payroll/DAO/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payroll/dao/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/payroll/DAO/DepartmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payroll/repository/DepartmentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/payroll/DAO/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payroll/dao/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/payroll/DAO/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payroll/repository/EmployeeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/payroll/DAO/PreLoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payroll/preload/PreLoad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/payroll/SbInternApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payroll/SbInternApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/payroll/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payroll/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/payroll/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payroll/controller/DepartmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/payroll/controller/DepartmentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payroll/dto/DepartmentDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/payroll/controller/DepartmentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payroll/mappers/DepartmentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/payroll/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payroll/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/payroll/controller/EmployeeDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payroll/dto/EmployeeDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/payroll/controller/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payroll/mappers/EmployeeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/payroll/controller/tmp/ClassA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/payroll/controller/tmp/ClassB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/payroll/exeption/BasicExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payroll/exception/BasicExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/payroll/exeption/EmployeeNameLengthException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payroll/exception/EmployeeNameLengthException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/payroll/exeption/EmployeeNotFoundAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payroll/exception/EmployeeNotFoundAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/payroll/exeption/EmployeeNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payroll/exception/EmployeeNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/payroll/exeption/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payroll/exception/ErrorResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/payroll/exeption/ValidateException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payroll/exception/ValidateException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/payroll/service/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payroll/service/DepartmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-intern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sb-intern.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/payroll/config/RabbitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payroll/config/RabbitConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/payroll/controller/QueueController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payroll/controller/QueueController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/payroll/dto/OrderDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payroll/dto/OrderDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/payroll/service/EmployeeServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payroll/service/EmployeeServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/payroll/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payroll/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/payroll/service/EmployeeServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/payroll/service/EmployeeServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/sb-intern.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/payroll/client/RequestInterseptor/RequestResponseLoggingInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/payroll/client/RequestInterseptor/RequestResponseLoggingInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/payroll/config/RabbitConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/payroll/config/RabbitConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/payroll/config/RestClientConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/payroll/config/RestClientConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/payroll/controller/DepartmentMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/payroll/controller/QueueController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/payroll/controller/QueueController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/payroll/dto/OrderDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/payroll/dto/OrderDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/payroll/service/EmployeeServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/payroll/service/EmployeeServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/payroll/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/payroll/service/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/payroll/mappers/DepartmentMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/payroll/mappers/DepartmentMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/payroll/mappers/EmployeeMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/payroll/mappers/EmployeeMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sb-intern-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/sb-intern-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sb-intern-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/sb-intern-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-payroll.SbInternApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-payroll.SbInternApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/payroll.SbInternApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/payroll.SbInternApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sb-untern3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sb-untern3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sb-untern3/src/main/java/com/example/sbintern3/dto/OrderDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sb-untern3/src/main/java/com/example/sbintern3/dto/OrderDto.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +69,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -90,7 +94,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.41264367" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -139,6 +143,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DepartmentServiceTest.createDepartmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sb-intern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="payroll.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="payroll.service" />
+      <option name="MAIN_CLASS_NAME" value="payroll.service.DepartmentServiceTest" />
+      <option name="METHOD_NAME" value="createDepartmentTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sb-intern [test]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="SbInternApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sb-intern" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="payroll.SbInternApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SbInternApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="sb-intern" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.sb.intern.SbInternApplication" />
@@ -161,7 +213,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SbInternApplication (1)" />
+        <item itemvalue="JUnit.DepartmentServiceTest.createDepartmentTest" />
+        <item itemvalue="Maven.sb-intern [test]" />
         <item itemvalue="Application.Producer" />
       </list>
     </recent_temporary>
@@ -174,7 +227,7 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a071ae8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@265c41b5" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -200,6 +253,8 @@
       <workItem from="1572602859773" duration="752000" />
       <workItem from="1572603631162" duration="19573000" />
       <workItem from="1572949855790" duration="45530000" />
+      <workItem from="1573151556570" duration="187000" />
+      <workItem from="1573194702200" duration="19192000" />
     </task>
     <servers />
   </component>
@@ -218,5 +273,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
 </project>

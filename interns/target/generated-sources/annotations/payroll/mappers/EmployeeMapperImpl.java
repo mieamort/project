@@ -6,7 +6,7 @@ import payroll.dto.EmployeeDto;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2019-11-07T17:39:14+0300",
+    date = "2019-11-08T17:32:37+0300",
     comments = "version: 1.3.0.Beta2, compiler: javac, environment: Java 1.8.0_201 (Oracle Corporation)"
 )
 public class EmployeeMapperImpl implements EmployeeMapper {

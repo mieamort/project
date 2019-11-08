@@ -78,6 +78,8 @@ public class EmployeeServices {
                 .map(employee -> {
                     employee.setName(newEmployee.getName());
                     employee.setRole(newEmployee.getRole());
+                    employee.setWallet(newEmployee.getWallet());
+                    employee.setDepartment(departmentRepository.findByName(newEmployee.getDepartmentname()));
                     repository.save(employee);
                     return newEmployee;
                 })

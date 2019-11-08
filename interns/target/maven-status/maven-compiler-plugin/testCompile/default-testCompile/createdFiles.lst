@@ -1,1 +1,5 @@
+payroll/service/EmployeeServiceTest.class
 payroll/SbInternApplicationTests.class
+payroll/service/DepartmentServiceTest.class
+payroll/controller/EmployeeControllerTest.class
+payroll/service/OrderServiceTest.class

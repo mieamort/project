@@ -1,1 +1,5 @@
-/Users/bootcamp/Downloads/sb-intern/src/test/java/payroll/SbInternApplicationTests.java
+/Users/bootcamp/Downloads/project/interns/src/test/java/payroll/controller/EmployeeControllerTest.java
+/Users/bootcamp/Downloads/project/interns/src/test/java/payroll/SbInternApplicationTests.java
+/Users/bootcamp/Downloads/project/interns/src/test/java/payroll/service/DepartmentServiceTest.java
+/Users/bootcamp/Downloads/project/interns/src/test/java/payroll/service/OrderServiceTest.java
+/Users/bootcamp/Downloads/project/interns/src/test/java/payroll/service/EmployeeServiceTest.java
